@@ -5,5 +5,5 @@ CHECK KAFKA IS RUNNING
 docker-compose ps
 
 SHUTDOWN KAFKA:
-docker-compose down -d
+docker-compose down -v
 
