@@ -34,11 +34,11 @@ sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 INSTALL/STARTUP KAFKA USING CONFLUENT:
-docker-compose up -d
+docker compose up -d
 
 CHECK KAFKA IS RUNNING
-docker-compose ps
+docker compose ps
 
 SHUTDOWN KAFKA:
-docker-compose down -v
+docker compose down -v
 
